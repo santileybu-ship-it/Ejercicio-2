@@ -130,13 +130,14 @@ form button{
   overflow:hidden; box-shadow: 0 1px 1px rgba(0,0,0,.05);
   background-color: var(--card);
 }
-.card-body{ padding: 1rem; }
+.card-body{ padding: 1rem;}
+.card-body h3{ padding: 0;}
 
-.card-img{
-  display: flex;
+.galeria .card .card-img{
+  margin: 1rem 0 0 1rem;
 }
 .card div {
-  padding: 1rem;
+  padding: 0 1rem;
 }
 .page-header .lede{ color: var(--muted); max-width: 65ch; }
 .trace {
